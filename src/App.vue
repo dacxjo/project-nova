@@ -1,5 +1,7 @@
 <template>
-  <main class="w-full h-screen bg-purple-200 grid grid-cols-8 gap-5 p-5 rounded-lg">
+  <main
+    class="w-full h-screen bg-purple-200 dark:bg-gray-800 grid grid-cols-8 gap-5 p-5 rounded-lg"
+  >
     <div class="col-span-1">
       <app-side-bar></app-side-bar>
     </div>

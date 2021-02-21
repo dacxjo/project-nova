@@ -10,6 +10,7 @@
 import { defineComponent } from 'vue';
 
 export default defineComponent({
+  emits: ['customer-added'],
   setup(_props, { emit }) {
     function addCustomer() {
       emit('customer-added');
